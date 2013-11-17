@@ -1,0 +1,13 @@
+Single quotes (only \' and \\)
+	'Bill\'s "personal" book'
+Double quotes (many escape sequences)
+	"Found #{count} errors\nAborting job\n"
+%q (similar to single quotes)
+	%q<Nesting works: <b>Hello</b>>
+%Q (similar to double quotes)
+	%Q|She said "#{greeting}"\n|
+“Here documents”
+	<<END
+	First line
+	Second line
+	END
